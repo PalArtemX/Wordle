@@ -13,6 +13,7 @@ struct ThemeColor {
     let misplaced = Color("misplaced")
     let correct = Color("correct")
     let unused = Color("unused")
+    let background = Color("background")
 }
 
 extension Color {
