@@ -53,6 +53,9 @@
 			children = (
 				F812BFD927D6086300A2BE04 /* WordleApp.swift */,
 				F812BFDB27D6086300A2BE04 /* ContentView.swift */,
+				F812BFE927D6088B00A2BE04 /* Views */,
+				F812BFE827D6088300A2BE04 /* ViewModels */,
+				F812BFE727D6087C00A2BE04 /* Models */,
 				F812BFDD27D6086600A2BE04 /* Assets.xcassets */,
 				F812BFDF27D6086600A2BE04 /* Preview Content */,
 			);
@@ -65,6 +68,27 @@
 				F812BFE027D6086600A2BE04 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F812BFE727D6087C00A2BE04 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		F812BFE827D6088300A2BE04 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		F812BFE927D6088B00A2BE04 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
