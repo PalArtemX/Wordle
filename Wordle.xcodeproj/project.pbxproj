@@ -15,6 +15,7 @@
 		F812BFF027D62CC600A2BE04 /* Guess.swift in Sources */ = {isa = PBXBuildFile; fileRef = F812BFEF27D62CC600A2BE04 /* Guess.swift */; };
 		F812BFF227D62E0800A2BE04 /* GuessView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F812BFF127D62E0800A2BE04 /* GuessView.swift */; };
 		F812BFF427D62FF600A2BE04 /* WordleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F812BFF327D62FF600A2BE04 /* WordleViewModel.swift */; };
+		F812BFF627D6317000A2BE04 /* Global.swift in Sources */ = {isa = PBXBuildFile; fileRef = F812BFF527D6317000A2BE04 /* Global.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		F812BFEF27D62CC600A2BE04 /* Guess.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Guess.swift; sourceTree = "<group>"; };
 		F812BFF127D62E0800A2BE04 /* GuessView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuessView.swift; sourceTree = "<group>"; };
 		F812BFF327D62FF600A2BE04 /* WordleViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordleViewModel.swift; sourceTree = "<group>"; };
+		F812BFF527D6317000A2BE04 /* Global.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Global.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +84,7 @@
 			isa = PBXGroup;
 			children = (
 				F812BFEF27D62CC600A2BE04 /* Guess.swift */,
+				F812BFF527D6317000A2BE04 /* Global.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -187,6 +190,7 @@
 				F812BFDA27D6086300A2BE04 /* WordleApp.swift in Sources */,
 				F812BFEE27D62B2F00A2BE04 /* Color.swift in Sources */,
 				F812BFF427D62FF600A2BE04 /* WordleViewModel.swift in Sources */,
+				F812BFF627D6317000A2BE04 /* Global.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

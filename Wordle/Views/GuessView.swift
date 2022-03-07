@@ -16,9 +16,11 @@ struct GuessView: View {
             ForEach(0...4, id: \.self) { index in
                 Text(guess.guessLetters[index])
                     .frame(minWidth: 0, maxWidth: .infinity, minHeight: 0, maxHeight: .infinity, alignment: .center)
-                    .background(Color.themeColor.background)
+                    //.background(Color.themeColor.background)
+                
                     .font(.largeTitle)
                     .border(Color.secondary)
+                
             }
         }
     }
