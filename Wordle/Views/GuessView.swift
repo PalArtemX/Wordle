@@ -9,17 +9,18 @@ import SwiftUI
 
 struct GuessView: View {
     
-    let guess: Guess
+    @Binding var guess: Guess
     
     var body: some View {
         HStack {
             ForEach(0...4, id: \.self) { index in
                 Text(guess.guessLetters[index])
+                    .foregroundColor(.primary)
                     .frame(minWidth: 0, maxWidth: .infinity, minHeight: 0, maxHeight: .infinity, alignment: .center)
-                    //.background(Color.themeColor.background)
+                    .background(Color.themeColor.background)
                 
                     .font(.largeTitle)
-                    .border(Color.secondary)
+                    .border(Color.indigo)
                 
             }
         }
@@ -37,6 +38,6 @@ struct GuessView: View {
 
 struct GuessView_Previews: PreviewProvider {
     static var previews: some View {
-        GuessView(guess: Guess(index: 0))
+        GuessView(guess: .constant(Guess(index: 0)))
     }
 }
